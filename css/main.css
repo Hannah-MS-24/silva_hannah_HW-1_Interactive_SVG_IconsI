@@ -27,11 +27,11 @@ body {
 }
 
 #brown_x5F_mascot .st0 {
-  fill: #93411f; 
+  fill: #93411f;
 }
 
 #brown_x5F_mascot:hover .st0 {
-  fill: red; 
+  fill: red;
 }
 
 #pink_x5F_mascot {
@@ -41,7 +41,7 @@ body {
 }
 
 #pink_x5F_mascot .st0 {
-  fill: #eb98c1; 
+  fill: #eb98c1;
   transition: fill 0.3s ease-in-out;
 }
 
@@ -56,3 +56,65 @@ body {
 #pink_x5F_mascot {
   filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
 }
+
+#red_x5F_mascot {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  transition: transform 0.3s ease-in-out, fill 0.3s ease;
+}
+
+#red_x5F_mascot .st0 {
+  fill: #ed2224;
+}
+
+#red_x5F_mascot:hover .st0 {
+  fill: #d2181f;
+}
+
+#red_x5F_mascot:hover {
+  transform: scale(1.1) rotate(5deg);
+}
+
+#red_x5F_mascot .st0:active {
+  fill: #c11a1b;
+}
+
+#red_x5F_mascot {
+  filter: inset(5px 5px 15px rgba(0, 0, 0, 0.2));
+}
+
+#red_x5F_mascot {
+  border: 2px solid #ed2224;
+  border-radius: 8px;
+}
+
+#Layer_1 {
+    width: 300px; /* Ajuste o tamanho do SVG conforme o contêiner */
+    height: auto;
+    display: block; /* Garante que o SVG seja tratado como bloco */
+  }
+  
+  .st0 {
+    fill: #fcdf3d; /* Cor de preenchimento amarela */
+    transition: fill 0.3s ease; /* Transição suave para mudanças de cor */
+  }
+  
+  .st0:hover {
+    fill: #f1c12f; /* Cor ao passar o mouse sobre o elemento */
+  }
+  
+  .st1 {
+    fill: #fff; /* Cor branca para os elementos com a classe .st1 */
+  }
+  
+  /* Estilizando o SVG com efeito de sombra */
+  #Layer_1 path {
+    transition: transform 0.3s ease, fill 0.3s ease;
+  }
+  
+  #Layer_1 path:hover {
+    transform: scale(1.05); /* Um pequeno zoom no hover */
+    fill: #f1c12f; /* Cor de preenchimento alterada ao passar o mouse */
+  }
+  
