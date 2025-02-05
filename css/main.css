@@ -1,0 +1,58 @@
+.hidden {
+  display: none;
+}
+
+body {
+  font-size: 16px;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-container div {
+  width: 50%;
+}
+
+#brown_x5F_mascot {
+  width: 300px;
+  height: auto;
+  transform: scale(1.5);
+  transform-origin: center;
+}
+
+#brown_x5F_mascot .st0 {
+  fill: #93411f; 
+}
+
+#brown_x5F_mascot:hover .st0 {
+  fill: red; 
+}
+
+#pink_x5F_mascot {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+
+#pink_x5F_mascot .st0 {
+  fill: #eb98c1; 
+  transition: fill 0.3s ease-in-out;
+}
+
+#pink_x5F_mascot .st0:hover {
+  fill: #d87ba9;
+}
+
+#pink_x5F_mascot .st0:active {
+  fill: #c05c8a;
+}
+
+#pink_x5F_mascot {
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.2));
+}
